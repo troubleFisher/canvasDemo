@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,li{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+}
+
+#canvas{
+    background: beige;
+    display: block;
+}
+
+.actions{
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+}
+
+.icon {
+    width: 1.5em; height: 1.5em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+svg.active{
+    transform: scale(1.4);
+    fill: #a22223;
+}
+
+.colors{
+    position: fixed;
+    bottom: 3em;
+    left: 1.5em;
+}
+
+.colors li{
+    margin: 0 0 1em 0;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+
+.colors li.black{
+    background: #010401;
+}
+
+.colors li.golden{
+    background: #deec22;
+}
+
+.colors li.orange{
+    background: #ecbe27;
+}
+
+.colors li.red{
+    background: #ec3e1c;
+}
+
+.colors li.pink{
+    background: #ec99c9;
+}
+
+.colors li.cyan{
+    background: #1fece3;
+}
+
+.colors li.purple{
+    background: #821fec;
+}
+
+.colors li.blue{
+    background: #1e34ec;
+}
+
+.colors li.active{
+    transform: scale(1.4);
+}
+
+.sizes{
+    position: fixed;
+    bottom: 2.5em;
+    left: 3.5em;
+}
+
+.sizes li{
+    background: black;
+    width: 12px;
+    margin: 1.5em 0;
+}
+
+.sizes li.size1{
+    height: 2px;
+}
+
+.sizes li.size2{
+    height: 4px;
+}
+
+.sizes li.size3{
+    height: 6px;
+}
+
+.sizes li.size4{
+    height: 8px;
+}
+
+.sizes li.size5{
+    height: 10px;
+}
+
+
+
+

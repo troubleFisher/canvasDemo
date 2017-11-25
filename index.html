@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>我的画板</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <canvas id="canvas" width="300px" height="300px"></canvas>
+    <div id="actions" class="actions">
+        <svg id="eraser" class="icon">
+            <use xlink:href="#icon-xiangpica"></use>
+        </svg>
+        <svg id="pen" class="active icon">
+            <use xlink:href="#icon-huabi"></use>
+        </svg>
+        <svg id="download" class="icon">
+            <use xlink:href="#icon-gou1"></use>
+        </svg>
+        <svg id="clear" class="icon">
+            <use xlink:href="#icon-cross"></use>
+        </svg>
+    </div>
+    <ol class="colors">
+        <li id="black" class="black"></li>
+        <li id="golden" class="golden"></li>
+        <li id="orange" class="orange"></li>
+        <li id="red" class="red"></li>
+        <li id="pink" class="pink"></li>
+        <li id="cyan" class="cyan"></li>
+        <li id="purple" class="purple"></li>
+        <li id="blue" class="blue"></li>
+    </ol>
+    <ol class="sizes">
+        <li id="size1" class="size1"></li>
+        <li id="size2" class="size2"></li>
+        <li id="size3" class="size3"></li>
+        <li id="size4" class="size4"></li>
+        <li id="size5" class="size5"></li>
+    </ol>
+</body>
+<script src="main.js"></script>
+<script src="//at.alicdn.com/t/font_485434_1y5jsvnesb4holxr.js"></script>
+</html>
